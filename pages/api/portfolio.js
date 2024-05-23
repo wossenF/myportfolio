@@ -5,7 +5,7 @@ const portfolio = [
     url: "https://www.figma.com/design/CsHzDmW89WpDs9jnGYlhxN/mobile-app-design?node-id=0%3A1&t=0SZzUKccUL8ly1pI-1",
     image: "projects/shegerFood.png",
     projectDetail:
-      "A food ordering app that offers a wide range of food items from sheger restuarant.The design is clean and user-friendly, making it easy for users to navigate through the app and place orders.",
+      "A food ordering app that offers a wide range of food items from sheger restuarant.The design is clean and user-friendly.",
     technologiesUsed: [
       {
         tech: "Figma",

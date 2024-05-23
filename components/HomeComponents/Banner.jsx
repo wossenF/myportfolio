@@ -46,18 +46,13 @@ const Banner = () => {
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>8+</span>
-                        <span className='text-xs text-Snow'>Freelance Clients</span>
-                    </div>
-
-                    <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>5+</span>
-                        <span className='text-xs text-Snow'>Honors & Awards</span>
+                        <span className='text-xs text-Snow'>interns</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
-                        <span className='text-xs text-Snow'>Opensource Projects</span>
+                        <span className='text-xs text-Snow'>class Projects</span>
                     </div>
 
                 </div>
