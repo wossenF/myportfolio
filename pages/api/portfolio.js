@@ -63,6 +63,7 @@ const portfolio = [
       },
     ],
   },
+  
   {
     id: 0,
     projectName: "Health AI Chatbot",
@@ -70,6 +71,22 @@ const portfolio = [
     image: "projects/chatai.png",
     projectDetail:
       "A chatbot that provides health-related information and advice to users. The chatbot is designed to be user-friendly and easy to use.",
+    technologiesUsed: [
+      {
+        tech: "Figma",
+      },
+      {
+        tech: "Adobe Illustrator",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "dashboard",
+    url: "https://www.figma.com/design/NSkOtJtUpLyfmdg6Ar0Fuq/Untitled?node-id=2%3A5728&t=WzrCRaeGGL7vW3dn-1",
+    image: "projects/game.png",
+    projectDetail:
+      "A dashboard that displays information about a game, including player stats, game progress, and achievements. The design is clean and user-friendly.",
     technologiesUsed: [
       {
         tech: "Figma",
