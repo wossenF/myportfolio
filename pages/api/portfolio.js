@@ -1,6 +1,22 @@
 const portfolio = [
   {
     id: 0,
+    projectName: "Shega Company Website",
+    url: "https://shega.org/",
+    image: "projects/shega.png",
+    projectDetail:
+      "A company website for Shega, a software development company. The website showcases the company's services, projects, and team members.",
+    technologiesUsed: [
+      {
+        tech: "Figma",
+      },
+      {
+        tech: "Adobe Illustrator",
+      },
+    ],
+  },
+  {
+    id: 0,
     projectName: "Restuarant Food Ordering App",
     url: "https://www.figma.com/design/CsHzDmW89WpDs9jnGYlhxN/mobile-app-design?node-id=0%3A1&t=0SZzUKccUL8ly1pI-1",
     image: "projects/shegerFood.png",
@@ -66,11 +82,11 @@ const portfolio = [
   
   {
     id: 0,
-    projectName: "Health AI Chatbot",
-    url: "https://www.figma.com/design/ihtqLUOvXWe4Ly77aoqykX/chat-ai?node-id=1%3A65&t=WzrCRaeGGL7vW3dn-1",
-    image: "projects/chatai.png",
+    projectName: "Law AI Chatbot",
+    url: "https://www.figma.com/design/nL8HanjcN78wtRmnGJyBre/Chat-Bot?node-id=0-1&t=RYFigCtVDbcU7dZj-0",
+    image: "projects/lawai.png",
     projectDetail:
-      "A chatbot that provides health-related information and advice to users. The chatbot is designed to be user-friendly and easy to use.",
+      "A chatbot that provides law-related information and advice to users. The chatbot is designed to be user-friendly and easy to use.",
     technologiesUsed: [
       {
         tech: "Figma",
@@ -96,22 +112,7 @@ const portfolio = [
       },
     ],
   },
-  {
-    id: 0,
-    projectName: "Shega Company Website",
-    url: "https://shega.org/",
-    image: "projects/shega.png",
-    projectDetail:
-      "A company website for Shega, a software development company. The website showcases the company's services, projects, and team members.",
-    technologiesUsed: [
-      {
-        tech: "Figma",
-      },
-      {
-        tech: "Adobe Illustrator",
-      },
-    ],
-  },
+  
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
