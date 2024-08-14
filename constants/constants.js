@@ -29,10 +29,7 @@ export const SKILLS = [
     title: 'MERNG Stack Developer',
     level: '70%',
   },
-  {
-    title: 'Data Analyst',
-    level: '55%',
-  },
+ 
 ];
 
 export const TECH_STACK = [
@@ -63,7 +60,7 @@ export const CONTACTS = {
   PHONE: '+251989888038',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/wossenfekadie1993',
+  GITHUB: 'https://github.com/wossenF/',
   LINKEDIN: 'https://www.linkedin.com/in/wossen-fekadie/',
   TWITTER: 'https://x.com/WossenF',
   FACEBOOK: 'https://www.facebook.com/WossenWalle',

@@ -1,7 +1,7 @@
 const portfolio = [
   {
     id: 0,
-    projectName: "Sheger Restuarant Food Ordering App",
+    projectName: "Restuarant Food Ordering App",
     url: "https://www.figma.com/design/CsHzDmW89WpDs9jnGYlhxN/mobile-app-design?node-id=0%3A1&t=0SZzUKccUL8ly1pI-1",
     image: "projects/shegerFood.png",
     projectDetail:
@@ -87,6 +87,22 @@ const portfolio = [
     image: "projects/game.png",
     projectDetail:
       "A dashboard that displays information about a game, including player stats, game progress, and achievements. The design is clean and user-friendly.",
+    technologiesUsed: [
+      {
+        tech: "Figma",
+      },
+      {
+        tech: "Adobe Illustrator",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "Shega Company Website",
+    url: "https://shega.org/",
+    image: "projects/shega.png",
+    projectDetail:
+      "A company website for Shega, a software development company. The website showcases the company's services, projects, and team members.",
     technologiesUsed: [
       {
         tech: "Figma",
